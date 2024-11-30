@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\samue\\source\\repos\\AngularWebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D19581F-BE6B-4BDE-8491-77BE87B4C0C6}|BL\\BL.csproj|c:\\users\\samue\\source\\repos\\angularwebapi\\bl\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D19581F-BE6B-4BDE-8491-77BE87B4C0C6}|BL\\BL.csproj|solutionrelative:bl\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6838736A-59AB-4CA5-B47A-9CBCBC5A3E56}|DL\\DL.csproj|c:\\users\\samue\\source\\repos\\angularwebapi\\dl\\ddcrudangularcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6838736A-59AB-4CA5-B47A-9CBCBC5A3E56}|DL\\DL.csproj|solutionrelative:dl\\ddcrudangularcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57CD615E-A76F-4D1F-8ED9-AECBE41A6E61}|WebApiCore\\WebApiCore.csproj|c:\\users\\samue\\source\\repos\\angularwebapi\\webapicore\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57CD615E-A76F-4D1F-8ED9-AECBE41A6E61}|WebApiCore\\WebApiCore.csproj|solutionrelative:webapicore\\controllers\\empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D19581F-BE6B-4BDE-8491-77BE87B4C0C6}|BL\\BL.csproj|c:\\users\\samue\\source\\repos\\angularwebapi\\bl\\bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9D19581F-BE6B-4BDE-8491-77BE87B4C0C6}|BL\\BL.csproj|solutionrelative:bl\\bl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD5FD86-6C94-4A60-93AA-7D051DD95E16}|ML\\ML.csproj|c:\\users\\samue\\source\\repos\\angularwebapi\\ml\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD5FD86-6C94-4A60-93AA-7D051DD95E16}|ML\\ML.csproj|solutionrelative:ml\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6838736A-59AB-4CA5-B47A-9CBCBC5A3E56}|DL\\DL.csproj|c:\\users\\samue\\source\\repos\\angularwebapi\\dl\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6838736A-59AB-4CA5-B47A-9CBCBC5A3E56}|DL\\DL.csproj|solutionrelative:dl\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD5FD86-6C94-4A60-93AA-7D051DD95E16}|ML\\ML.csproj|c:\\users\\samue\\source\\repos\\angularwebapi\\ml\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FD5FD86-6C94-4A60-93AA-7D051DD95E16}|ML\\ML.csproj|solutionrelative:ml\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6838736A-59AB-4CA5-B47A-9CBCBC5A3E56}|DL\\DL.csproj|c:\\users\\samue\\source\\repos\\angularwebapi\\dl\\dl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6838736A-59AB-4CA5-B47A-9CBCBC5A3E56}|DL\\DL.csproj|solutionrelative:dl\\dl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57CD615E-A76F-4D1F-8ED9-AECBE41A6E61}|WebApiCore\\WebApiCore.csproj|c:\\users\\samue\\source\\repos\\angularwebapi\\webapicore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57CD615E-A76F-4D1F-8ED9-AECBE41A6E61}|WebApiCore\\WebApiCore.csproj|solutionrelative:webapicore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6838736A-59AB-4CA5-B47A-9CBCBC5A3E56}|DL\\DL.csproj|c:\\users\\samue\\source\\repos\\angularwebapi\\dl\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6838736A-59AB-4CA5-B47A-9CBCBC5A3E56}|DL\\DL.csproj|solutionrelative:dl\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57CD615E-A76F-4D1F-8ED9-AECBE41A6E61}|WebApiCore\\WebApiCore.csproj|c:\\users\\samue\\source\\repos\\angularwebapi\\webapicore\\webapicore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{57CD615E-A76F-4D1F-8ED9-AECBE41A6E61}|WebApiCore\\WebApiCore.csproj|solutionrelative:webapicore\\webapicore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FD5FD86-6C94-4A60-93AA-7D051DD95E16}|ML\\ML.csproj|c:\\users\\samue\\source\\repos\\angularwebapi\\ml\\ml.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8FD5FD86-6C94-4A60-93AA-7D051DD95E16}|ML\\ML.csproj|solutionrelative:ml\\ml.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BL",
+              "DocumentMoniker": "C:\\Users\\samue\\source\\repos\\AngularWebApi\\BL\\BL.csproj",
+              "RelativeDocumentMoniker": "BL\\BL.csproj",
+              "ToolTip": "C:\\Users\\samue\\source\\repos\\AngularWebApi\\BL\\BL.csproj",
+              "RelativeToolTip": "BL\\BL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-30T00:29:29.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\samue\\source\\repos\\AngularWebApi\\BL\\Empleado.cs",
+              "RelativeDocumentMoniker": "BL\\Empleado.cs",
+              "ToolTip": "C:\\Users\\samue\\source\\repos\\AngularWebApi\\BL\\Empleado.cs",
+              "RelativeToolTip": "BL\\Empleado.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAB0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T23:36:15.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\samue\\source\\repos\\AngularWebApi\\WebApiCore\\Program.cs",
+              "RelativeDocumentMoniker": "WebApiCore\\Program.cs",
+              "ToolTip": "C:\\Users\\samue\\source\\repos\\AngularWebApi\\WebApiCore\\Program.cs",
+              "RelativeToolTip": "WebApiCore\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T23:20:08.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\samue\\source\\repos\\AngularWebApi\\DL\\Empleado.cs",
+              "RelativeDocumentMoniker": "DL\\Empleado.cs",
+              "ToolTip": "C:\\Users\\samue\\source\\repos\\AngularWebApi\\DL\\Empleado.cs",
+              "RelativeToolTip": "DL\\Empleado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T23:13:36.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DdcrudAngularContext.cs",
+              "DocumentMoniker": "C:\\Users\\samue\\source\\repos\\AngularWebApi\\DL\\DdcrudAngularContext.cs",
+              "RelativeDocumentMoniker": "DL\\DdcrudAngularContext.cs",
+              "ToolTip": "C:\\Users\\samue\\source\\repos\\AngularWebApi\\DL\\DdcrudAngularContext.cs",
+              "RelativeToolTip": "DL\\DdcrudAngularContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T23:13:00.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\samue\\source\\repos\\AngularWebApi\\ML\\Empleado.cs",
+              "RelativeDocumentMoniker": "ML\\Empleado.cs",
+              "ToolTip": "C:\\Users\\samue\\source\\repos\\AngularWebApi\\ML\\Empleado.cs",
+              "RelativeToolTip": "ML\\Empleado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T22:40:03.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmpleadoController.cs",
+              "DocumentMoniker": "C:\\Users\\samue\\source\\repos\\AngularWebApi\\WebApiCore\\Controllers\\EmpleadoController.cs",
+              "RelativeDocumentMoniker": "WebApiCore\\Controllers\\EmpleadoController.cs",
+              "ToolTip": "C:\\Users\\samue\\source\\repos\\AngularWebApi\\WebApiCore\\Controllers\\EmpleadoController.cs",
+              "RelativeToolTip": "WebApiCore\\Controllers\\EmpleadoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T23:35:37.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\samue\\source\\repos\\AngularWebApi\\ML\\Result.cs",
+              "RelativeDocumentMoniker": "ML\\Result.cs",
+              "ToolTip": "C:\\Users\\samue\\source\\repos\\AngularWebApi\\ML\\Result.cs",
+              "RelativeToolTip": "ML\\Result.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T23:37:09.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DL.csproj",
+              "DocumentMoniker": "C:\\Users\\samue\\source\\repos\\AngularWebApi\\DL\\DL.csproj",
+              "RelativeDocumentMoniker": "DL\\DL.csproj",
+              "ToolTip": "C:\\Users\\samue\\source\\repos\\AngularWebApi\\DL\\DL.csproj",
+              "RelativeToolTip": "DL\\DL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-29T23:03:26.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\samue\\source\\repos\\AngularWebApi\\DL\\Class1.cs",
+              "RelativeDocumentMoniker": "DL\\Class1.cs",
+              "ToolTip": "C:\\Users\\samue\\source\\repos\\AngularWebApi\\DL\\Class1.cs",
+              "RelativeToolTip": "DL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T22:50:59.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ML.csproj",
+              "DocumentMoniker": "C:\\Users\\samue\\source\\repos\\AngularWebApi\\ML\\ML.csproj",
+              "RelativeDocumentMoniker": "ML\\ML.csproj",
+              "ToolTip": "C:\\Users\\samue\\source\\repos\\AngularWebApi\\ML\\ML.csproj",
+              "RelativeToolTip": "ML\\ML.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-29T22:40:26.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WebApiCore.csproj",
+              "DocumentMoniker": "C:\\Users\\samue\\source\\repos\\AngularWebApi\\WebApiCore\\WebApiCore.csproj",
+              "RelativeDocumentMoniker": "WebApiCore\\WebApiCore.csproj",
+              "ToolTip": "C:\\Users\\samue\\source\\repos\\AngularWebApi\\WebApiCore\\WebApiCore.csproj",
+              "RelativeToolTip": "WebApiCore\\WebApiCore.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-29T22:40:08.889Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

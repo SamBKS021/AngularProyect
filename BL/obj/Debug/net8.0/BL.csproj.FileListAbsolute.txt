@@ -1,0 +1,17 @@
+C:\Users\samue\source\repos\AngularWebApi\BL\bin\Debug\net8.0\BL.deps.json
+C:\Users\samue\source\repos\AngularWebApi\BL\bin\Debug\net8.0\BL.dll
+C:\Users\samue\source\repos\AngularWebApi\BL\bin\Debug\net8.0\BL.pdb
+C:\Users\samue\source\repos\AngularWebApi\BL\bin\Debug\net8.0\DL.dll
+C:\Users\samue\source\repos\AngularWebApi\BL\bin\Debug\net8.0\ML.dll
+C:\Users\samue\source\repos\AngularWebApi\BL\bin\Debug\net8.0\DL.pdb
+C:\Users\samue\source\repos\AngularWebApi\BL\bin\Debug\net8.0\ML.pdb
+C:\Users\samue\source\repos\AngularWebApi\BL\obj\Debug\net8.0\BL.csproj.AssemblyReference.cache
+C:\Users\samue\source\repos\AngularWebApi\BL\obj\Debug\net8.0\BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samue\source\repos\AngularWebApi\BL\obj\Debug\net8.0\BL.AssemblyInfoInputs.cache
+C:\Users\samue\source\repos\AngularWebApi\BL\obj\Debug\net8.0\BL.AssemblyInfo.cs
+C:\Users\samue\source\repos\AngularWebApi\BL\obj\Debug\net8.0\BL.csproj.CoreCompileInputs.cache
+C:\Users\samue\source\repos\AngularWebApi\BL\obj\Debug\net8.0\BL.csproj.Up2Date
+C:\Users\samue\source\repos\AngularWebApi\BL\obj\Debug\net8.0\BL.dll
+C:\Users\samue\source\repos\AngularWebApi\BL\obj\Debug\net8.0\refint\BL.dll
+C:\Users\samue\source\repos\AngularWebApi\BL\obj\Debug\net8.0\BL.pdb
+C:\Users\samue\source\repos\AngularWebApi\BL\obj\Debug\net8.0\ref\BL.dll

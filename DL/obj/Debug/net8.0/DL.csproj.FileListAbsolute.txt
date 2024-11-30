@@ -1,0 +1,14 @@
+C:\Users\samue\source\repos\AngularWebApi\DL\bin\Debug\net8.0\DL.deps.json
+C:\Users\samue\source\repos\AngularWebApi\DL\bin\Debug\net8.0\DL.runtimeconfig.json
+C:\Users\samue\source\repos\AngularWebApi\DL\bin\Debug\net8.0\DL.dll
+C:\Users\samue\source\repos\AngularWebApi\DL\bin\Debug\net8.0\DL.pdb
+C:\Users\samue\source\repos\AngularWebApi\DL\obj\Debug\net8.0\DL.csproj.AssemblyReference.cache
+C:\Users\samue\source\repos\AngularWebApi\DL\obj\Debug\net8.0\DL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samue\source\repos\AngularWebApi\DL\obj\Debug\net8.0\DL.AssemblyInfoInputs.cache
+C:\Users\samue\source\repos\AngularWebApi\DL\obj\Debug\net8.0\DL.AssemblyInfo.cs
+C:\Users\samue\source\repos\AngularWebApi\DL\obj\Debug\net8.0\DL.csproj.CoreCompileInputs.cache
+C:\Users\samue\source\repos\AngularWebApi\DL\obj\Debug\net8.0\DL.dll
+C:\Users\samue\source\repos\AngularWebApi\DL\obj\Debug\net8.0\refint\DL.dll
+C:\Users\samue\source\repos\AngularWebApi\DL\obj\Debug\net8.0\DL.pdb
+C:\Users\samue\source\repos\AngularWebApi\DL\obj\Debug\net8.0\DL.genruntimeconfig.cache
+C:\Users\samue\source\repos\AngularWebApi\DL\obj\Debug\net8.0\ref\DL.dll
