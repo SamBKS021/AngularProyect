@@ -1,2 +1,2 @@
 # AngularProyect
-Proyecto de Angular usando .NET con C# 
+Proyecto de Angular usando .NET Core con C# 
