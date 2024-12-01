@@ -1,4 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System.Globalization;
+using DL;
+using Microsoft.EntityFrameworkCore;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace BL
 {
@@ -11,28 +14,105 @@ namespace BL
             {
                 using (DL.DdcrudAngularContext context = new DL.DdcrudAngularContext())
                 {
-                    var query= context.Empleados.FromSqlRaw($"EXEC EmpleadoGetAll");
+
+                    var query = context.Empleados.FromSqlRaw($"EXEC EmpleadoGetAll");
                     if (query != null)
                     {
-                        foreach (var item in query) {
+                        result.Objects = new List<object>();
+                        foreach (var item in query)
+                        {
                             ML.Empleado empleado = new ML.Empleado();
                             empleado.Nombre = item.Nombre;
                             empleado.Correo = item.Correo;
                             empleado.Sueldo = item.Sueldo.Value;
                             empleado.IdEmpleado = item.IdEmpleado;
-                            empleado.FechaContrato =Convert.ToString(item.FechaContrato.Value);
+                            empleado.FechaContrato = Convert.ToString(item.FechaContrato);
+
+                            result.Objects.Add(empleado);
                         }
                         result.Correct = true;
                     }
-                    result.Correct = false;
-                    result.ErrorMessage = "Error al obtener los empleados";
+                    else
+                    {
+                        result.Correct = false;
+                        result.ErrorMessage = "Error al obtener los empleados";
+                    }
                 }
-            } catch (Exception ex) {
+            }
+            catch (Exception ex)
+            {
                 result.ErrorMessage = ex.Message;
                 result.Ex = ex;
                 result.Correct = false;
             }
-            
+
+            return result;
+        }
+        public static ML.Result GetById(int IdEmpleado)
+        {
+            ML.Result result = new ML.Result();
+            try
+            {
+                using (DdcrudAngularContext context = new DdcrudAngularContext())
+                {
+                    var query = context.Empleados.FromSqlRaw($"EXEC EmpleadoGetById {IdEmpleado}").AsEnumerable().FirstOrDefault();
+                    if (query != null)
+                    {
+                        ML.Empleado empleado = new ML.Empleado();
+                        empleado.Nombre = query.Nombre;
+                        empleado.Correo = query.Correo;
+                        empleado.Sueldo = empleado.Sueldo = query.Sueldo.HasValue ? query.Sueldo.Value : 0;                        ;
+                        empleado.FechaContrato = Convert.ToString(query.FechaContrato);
+                        empleado.IdEmpleado = query.IdEmpleado;
+
+                        result.Object = empleado;
+                        result.Correct = true;
+                    }
+                    else
+                    {
+                        result.Correct = false;
+                        result.ErrorMessage = "Error al obtener el usuario";
+                    }
+                }
+            }
+            catch(Exception ex)
+            {
+                result.Ex = ex;
+                result.ErrorMessage = ex.Message;
+                result.Correct = false;
+            }
+            return result;
+        }
+        public static ML.Result Add(ML.Empleado empleado)
+        {
+            ML.Result result = new ML.Result();
+            try
+            {
+                using (DdcrudAngularContext context = new DdcrudAngularContext())
+                {
+                    string fechaContrato = DateTime.ParseExact(empleado.FechaContrato, "dd-MM-yyyy", CultureInfo.InvariantCulture).ToString("yyyy-MM-dd");
+
+                    var query = context.Database.ExecuteSqlRaw(
+                         "EXEC EmpleadoAdd " +
+                            $"'{empleado.Nombre}', " +
+                            $"'{empleado.Correo}', " +
+                            $"'{empleado.Sueldo}', " +
+                            $"'{fechaContrato}' " );
+                    if (query != 0)
+                    {
+                        result.Correct = true;
+                    }
+                    else
+                    {
+                        result.Correct = false;
+                    }
+                }
+            }catch(Exception ex)
+            {
+                result.ErrorMessage = ex.Message;
+                result.Correct = false;
+                result.Ex = ex;
+            }
             return result;
         }
     }

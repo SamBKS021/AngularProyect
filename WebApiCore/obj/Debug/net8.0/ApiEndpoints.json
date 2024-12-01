@@ -1,12 +1,44 @@
 [
   {
     "ContainingType": "WebApiCore.Controllers.EmpleadoController",
+    "Method": "Add",
+    "RelativePath": "api/Empleado/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empleado",
+        "Type": "ML.Empleado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiCore.Controllers.EmpleadoController",
     "Method": "GetAll",
-    "RelativePath": "api/Empleado/Empleado/GetAll",
+    "RelativePath": "api/Empleado/GetAll",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiCore.Controllers.EmpleadoController",
+    "Method": "GetById",
+    "RelativePath": "api/Empleado/GetById/{IdEmpleado}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdEmpleado",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

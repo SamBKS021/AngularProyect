@@ -12,3 +12,4 @@ C:\Users\samue\source\repos\AngularWebApi\DL\obj\Debug\net8.0\refint\DL.dll
 C:\Users\samue\source\repos\AngularWebApi\DL\obj\Debug\net8.0\DL.pdb
 C:\Users\samue\source\repos\AngularWebApi\DL\obj\Debug\net8.0\DL.genruntimeconfig.cache
 C:\Users\samue\source\repos\AngularWebApi\DL\obj\Debug\net8.0\ref\DL.dll
+C:\Users\samue\source\repos\AngularWebApi\DL\obj\Debug\net8.0\DL.sourcelink.json

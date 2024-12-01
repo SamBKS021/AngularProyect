@@ -9,3 +9,4 @@ C:\Users\samue\source\repos\AngularWebApi\ML\obj\Debug\net8.0\ML.dll
 C:\Users\samue\source\repos\AngularWebApi\ML\obj\Debug\net8.0\refint\ML.dll
 C:\Users\samue\source\repos\AngularWebApi\ML\obj\Debug\net8.0\ML.pdb
 C:\Users\samue\source\repos\AngularWebApi\ML\obj\Debug\net8.0\ref\ML.dll
+C:\Users\samue\source\repos\AngularWebApi\ML\obj\Debug\net8.0\ML.sourcelink.json
