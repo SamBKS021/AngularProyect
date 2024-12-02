@@ -1,0 +1,46 @@
+<div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8">
+        <div class="card shadow-sm">
+          <div class="card-header">
+            <h5 class="card-title text-center">Lista de Empleados</h5>
+          </div>
+          <div class="card-body">
+            <div class="text-end mb-3">
+              <button class="btn btn-primary" (click)="Add()">Nuevo Empleado</button>
+            </div>
+            <div class="table-responsive">
+              <table class="table table-striped table-hover">
+                <thead class="table-dark">
+                  <tr>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Correo</th>
+                    <th scope="col">Sueldo</th>
+                    <th scope="col">Fecha de Contrato</th>
+                    <th scope="col">Acción</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let element of Empleados">
+                    <td>{{ element.nombre }}</td>
+                    <td>{{ element.correo }}</td>
+                    <td>{{ element.sueldo }}</td>
+                    <td>{{ element.fechaContrato }}</td>
+                    <td>
+                      <button class="btn btn-sm btn-warning me-1" (click)="Update(element)">
+                        <i class="bi bi-pencil"></i> Editar
+                      </button>
+                      <button class="btn btn-sm btn-danger" (click)="Delete(element)">
+                        <i class="bi bi-trash"></i> Eliminar
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
