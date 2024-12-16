@@ -90,14 +90,12 @@ namespace BL
             {
                 using (DdcrudAngularContext context = new DdcrudAngularContext())
                 {
-                    string fechaContrato = DateTime.ParseExact(empleado.FechaContrato, "dd-MM-yyyy", CultureInfo.InvariantCulture).ToString("yyyy-MM-dd");
-
                     var query = context.Database.ExecuteSqlRaw(
                          "EXEC EmpleadoAdd " +
                             $"'{empleado.Nombre}', " +
                             $"'{empleado.Correo}', " +
                             $"'{empleado.Sueldo}', " +
-                            $"'{fechaContrato}' " );
+                            $"'{empleado.FechaContrato}' " );
                     if (query != 0)
                     {
                         result.Correct = true;
@@ -111,6 +109,67 @@ namespace BL
             {
                 result.ErrorMessage = ex.Message;
                 result.Correct = false;
+                result.Ex = ex;
+            }
+            return result;
+        }
+        public static ML.Result Update(ML.Empleado empleado)
+        {
+            ML.Result result = new ML.Result();
+            try
+            {
+                using(DdcrudAngularContext context = new DdcrudAngularContext())
+                {
+                    var query = context.Database.ExecuteSqlRaw($"EXEC EmpleadoUpdate '{empleado.IdEmpleado}', " +
+                        $"'{empleado.Nombre}', " +
+                        $"'{empleado.Correo}', " +
+                        $"'{empleado.Sueldo}', " +
+                        $"'{empleado.FechaContrato}'");
+                    if (query > 0)
+                    {
+                        result.Correct = true;
+                        result.Object = empleado;
+                        result.ErrorMessage = "Empleado Actualizado";
+                    }
+                    else
+                    {
+                        result.Correct = false;
+                        result.ErrorMessage = "Error al actualizar";
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                result.ErrorMessage = ex.Message;
+                result.Correct = false;
+                result.Ex = ex;
+            }
+            return result;
+        }
+        public static ML.Result Delete(int IdEmpleado)
+        {
+            ML.Result result = new ML.Result();
+            try
+            {
+                using (DdcrudAngularContext context = new DdcrudAngularContext())
+                {
+                    var query = context.Database.ExecuteSqlRaw($"EXEC EmpleadoDelete '{IdEmpleado}'");
+                    if(query > 0)
+                    {
+                        result.Correct = true;
+                        result.ErrorMessage = "Empleado eliminado";                        
+                    }
+                    else
+                    {
+                        result.Correct = false;
+                        result.ErrorMessage = "Error al eliminar";
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                result.Correct = false;
+                result.ErrorMessage = ex.Message;
                 result.Ex = ex;
             }
             return result;

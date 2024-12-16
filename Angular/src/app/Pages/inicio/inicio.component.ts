@@ -41,11 +41,11 @@ export class InicioComponent {
   }
 
   Add() {
-    this.router.navigate(['/Add', 0]);
+    this.router.navigate(['/empleado', 0]);
   }
 
   Update(Objecto: Empleado) {
-    this.router.navigate(['/Update/', Objecto.idEmpleado]);
+    this.router.navigate(['/empleado/', Objecto.idEmpleado]);
   }
 
   Delete(Objecto: Empleado) {

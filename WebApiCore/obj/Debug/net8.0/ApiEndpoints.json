@@ -17,6 +17,22 @@
   },
   {
     "ContainingType": "WebApiCore.Controllers.EmpleadoController",
+    "Method": "Delete",
+    "RelativePath": "api/Empleado/Delete/{IdEmpleado}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdEmpleado",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiCore.Controllers.EmpleadoController",
     "Method": "GetAll",
     "RelativePath": "api/Empleado/GetAll",
     "HttpMethod": "GET",
@@ -36,6 +52,22 @@
       {
         "Name": "IdEmpleado",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiCore.Controllers.EmpleadoController",
+    "Method": "Update",
+    "RelativePath": "api/Empleado/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empleado",
+        "Type": "ML.Empleado",
         "IsRequired": true
       }
     ],
